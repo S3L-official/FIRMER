@@ -6,7 +6,7 @@ int main(int argc, char **argv) {
     string str1(argv[1]); //library path
     string library_file = str1; //example "../cell/Library.txt";
     string str2(argv[2]); // library name
-    string library_name = str1; //example "NANG45";
+    string library_name = str2; //example "NANG45";
     string str3(argv[3]); // input path
     string input_file = str3; //example "../test/led64-1round/test1round1bit.v";
     string str4(argv[4]); // circuit name
